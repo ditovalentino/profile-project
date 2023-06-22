@@ -1,0 +1,89 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  background-color: aqua;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/* navbar */
+.a {
+  font-size: 100px;
+  color: #02542d;
+}
+
+.navbar {
+  width: fullscreen;
+  height: 98px;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  color: #02542d;
+  font-weight: bold;
+}
+
+.navbar-brand .logo-image {
+  margin-left: 71px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.navbar-brand .jombang-text {
+  color: #02542d;
+  margin-right: 350px;
+}
+.navbar-brand {
+  padding-right: 30px;
+}
+
+.navbar-nav {
+  gap: 30px;
+}
+
+.btn {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-left: 250px;
+  border-radius: 100px;
+}
+
+.btn-custom {
+  background-color: #02542d;
+  color: white;
+}
+
+/* main */
+.main-selection {
+  background-image: url("../Assets/img/banner.png");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  padding-bottom: 700px;
+}
+
+img.hero-image {
+  width: 209px;
+  height: 178px;
+}
+
+.main-dec h1 {
+  text-align: center;
+  color: white;
+  font-size: 28px;
+  font-family: Inter;
+  font-weight: 700;
+}
