@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 18px;
   background-color: aqua;
 }
@@ -73,6 +75,7 @@ header {
   background-position: center center;
   background-repeat: no-repeat;
   padding-bottom: 700px;
+  
 }
 
 img.hero-image {
@@ -87,3 +90,5 @@ img.hero-image {
   font-family: Inter;
   font-weight: 700;
 }
+
+
