@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Inter&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Inter&display=swap");
 
 body {
   font-family: "Inter", sans-serif;
   font-size: 18px;
-  background-color: aqua;
 }
 
 header {
@@ -25,6 +24,9 @@ header {
 .a {
   font-size: 100px;
   color: #02542d;
+}
+.container-fluid {
+  background-color: white;
 }
 
 .navbar {
@@ -70,15 +72,21 @@ header {
 
 /* main */
 .main-selection {
-  background-image: url("../Assets/img/banner.png");
+  background-image: radial-gradient(
+      905.96% 328.18% at 54% 27.82%,
+      rgba(255, 181, 72, 0) 0%,
+      rgba(255, 255, 255, 0.803) 21.22%
+    ),
+    url("../Assets/img/banner.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+
   padding-bottom: 700px;
-  
 }
 
 img.hero-image {
+  position: relative;
   width: 209px;
   height: 178px;
 }
@@ -91,4 +99,34 @@ img.hero-image {
   font-weight: 700;
 }
 
+/* profile */
 
+.profile-container {
+  background: linear-gradient(90deg, #fff 39.43%, rgba(255, 255, 255, 0) 132%),
+    url(../Assets/img/profile.png);
+
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100% 100%;
+}
+
+.profile-visi {
+  text-align: center;
+  padding-bottom: 39px;
+}
+.profile-visi h2 {
+  padding-top: 45px;
+  color: #02542d;
+  font-size: 25px;
+  font-family: Inter;
+  font-weight: 700;
+}
+
+.profile-visi p {
+  display: inline-block;
+  text-align: left;
+  color: #000;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 600;
+}

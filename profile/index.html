@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="icon" href="Assets/img/hero-img.png"
-    type="image/x-icon">
+    <link rel="icon" href="Assets/img/hero-img.png" type="image/x-icon" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Pompes Kalimasada</title>
@@ -13,6 +12,7 @@
       crossorigin="anonymous"
     />
     <link href="./styles/index.css" rel="stylesheet" />
+    <link href="./styles/responsive.css" rel="stylesheet" />
   </head>
   <body>
     <!-- start navbar -->
@@ -52,9 +52,10 @@
             <a class="nav-link" href="#">AKADEMIK</a>
             <a class="nav-link" href="#">FASILITAS </a>
             <a class="nav-link">AKTIFITAS</a>
-            <button type="button" class="nav-link" style="background-color: #02542D; color: white; border-radius: 20px;">INFO PENDAFTARAN</button>
+            <button type="button" class="btn btn-custom">
+              INFO PENDAFTARAN
+            </button>
           </div>
-          
         </div>
       </div>
     </nav>
@@ -66,9 +67,12 @@
       <div id="main" class="main-selection">
         <div class="m-auto text-center">
           <div class="hero_title">
-            <img src="./Assets/img/hero-img.png" alt="Logo" class="hero-image" style="position: relative;">
-            <div class="overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; 
-             background: linear-gradient(to top, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));"></div>
+            <img
+              src="./Assets/img/hero-img.png"
+              alt="Logo"
+              class="hero-image"
+            />
+            <div class="overlay"></div>
           </div>
           <div class="main-dec">
             <h1>PONDOK PESANTREN KALIMASADA <br />JOMBANG</h1>
@@ -76,8 +80,48 @@
         </div>
       </div>
     </main>
-    
-    
+    <!-- end main -->
+    <!-- profile -->
+    <profile>
+      <div class="profile-visi">
+        <div id="profile" class="profile-container">
+          <div class="profile-title">
+            <h1>Sejarah Pondok Pesantren <br />Kalimasada</h1>
+            <div class="profile-dec">
+              <p>
+                Pondok Pesantren Kalimasada yang bertempat di dusun Brumbung,
+                Desa Bangsri, Kecamatan Plandaan, Jombang.
+              </p>
+              <p>
+                Pondok Pesanten Kalimasada didirikan pada 2012 tepatanya 29 Mei
+                2012. Sejarah dari nama Kalimasada berasal dari kalimat syahadat
+                yaitu Asy’hadu alla ilaaha illallh waasy’hadu anna muhammadan
+                Rasulullah. Kalimat tersebut merupakan dasar atau pondasi tauhid
+                yang dimiliki mayasrakat.
+              </p>
+            </div>
+          </div>
+        </div>
+        <h2>VISI</h2>
+        <p>
+          Mengembangkan keterampilan santri yang beriman, bertaqwa, terdidik,
+          terampil, dan berwawasan kebangsaan.
+        </p>
+        <h2>MISI</h2>
+        <p>
+          1. Meningkatkan disiplin dalam beribadah kepada Allah SWT<br />2.
+          Meningkatkan pengamalan ajaran agama islam dalam kehidupan
+          sehari-hari<br />3. Melakukan pembelajaran dan bimbingan secara
+          efektif sehingga setiap santri berkembang secara optimal sesuai dengan
+          potensi yang dimiliki<br />4. Memberikan motivasi dan bantuan kepada
+          santri dalam mengembangkan bakat dan minat<br />5. Menanamkan
+          dasar-dasar IPTEK melalui pendidikan berbasis teknologi, sains, dan
+          life skills<br />6. Meningkatkan prestasi santri<br />7. Meningkatkan
+          rasa nasionalisme terhadap bangsa dan negara
+        </p>
+      </div>
+    </profile>
+    <!-- profile end -->
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
