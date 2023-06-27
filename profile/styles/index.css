@@ -86,7 +86,6 @@ header {
 }
 
 img.hero-image {
-  position: relative;
   width: 209px;
   height: 178px;
 }
@@ -104,7 +103,7 @@ img.hero-image {
 .profile-container {
   background: linear-gradient(90deg, #fff 39.43%, rgba(255, 255, 255, 0) 132%),
     url(../Assets/img/profile.png);
-
+  position: relative;
   background-repeat: no-repeat;
   background-position: right;
   background-size: 100% 100%;
@@ -129,4 +128,88 @@ img.hero-image {
   font-size: 18px;
   font-family: Inter;
   font-weight: 600;
+}
+
+.profile-misi p {
+  margin-right: 350px;
+}
+.profile-title {
+  padding-left: 77px;
+  padding-top: 64px;
+  padding-bottom: 114px;
+}
+.profile-title h1 {
+  display: flex;
+  width: 564px;
+  height: 157px;
+  flex-direction: column;
+  color: #02542d;
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  text-align: left;
+  padding-left: 77px;
+}
+
+.profile-dec {
+  padding-left: 77px;
+  width: 451px;
+  height: 288px;
+  color: #000;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: 600;
+}
+
+/* struktur */
+.struktur-content {
+  background-color: #01512c;
+}
+
+.struktur-title {
+  padding-top: 107px;
+  padding-left: 109px;
+}
+.struktur-line {
+  background: #d9c630;
+  width: 69px;
+  height: 4px;
+}
+
+.struktur-gm {
+  gap: 100px;
+}
+
+.gm-1 {
+  width: 282px;
+  height: 228px;
+  background: #fff;
+}
+
+.gm-1 {
+  position: relative;
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+}
+
+.gm-1 h1 {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-weight: bold;
+}
+
+.gm-1 h2 {
+  background-color: #d9c630;
+  display: flex;
+  width: 100%;
+  height: 10px;
+}
+
+.struktur-gm img {
+  width: 150px;
+  height: 150px;
 }

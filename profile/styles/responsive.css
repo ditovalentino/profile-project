@@ -6,34 +6,7 @@
   .btn {
     margin: unset;
   }
-
-  .profile-container {
-    position: relative;
-  }
-
-  .profile-title {
-    padding-left: 77px;
-    padding-top: 64px;
-    padding-bottom: 114px;
-  }
-  .profile-title h1 {
-    display: flex;
-    width: 564px;
-    height: 157px;
-    flex-direction: column;
-    color: #02542d;
-    font-size: 32px;
-    font-family: Inter;
-    font-weight: 700;
-  }
-
-  .profile-dec {
-    width: 451px;
-    height: 288px;
-    color: #000;
-    font-size: 18px;
-    font-family: Inter;
-    font-weight: 600;
+  .profile-misi p {
   }
 }
 
