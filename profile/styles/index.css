@@ -176,40 +176,50 @@ img.hero-image {
   height: 4px;
 }
 
-.struktur-gm {
-  gap: 100px;
-}
+.struktur-profile {
+  gap: 10px;
+  height: 100vh;
+  padding-top: 46px;
 
-.gm-1 {
-  width: 282px;
-  height: 228px;
-  background: #fff;
-}
-
-.gm-1 {
-  position: relative;
-  color: #000;
-  text-align: center;
-  font-size: 18px;
-  font-family: Inter;
-}
-
-.gm-1 h1 {
-  color: #000;
-  text-align: center;
-  font-size: 18px;
-  font-family: Inter;
-  font-weight: bold;
-}
-
-.gm-1 h2 {
-  background-color: #d9c630;
   display: flex;
-  width: 100%;
-  height: 10px;
 }
 
-.struktur-gm img {
-  width: 150px;
-  height: 150px;
+.gambar1 {
+  width: 259px;
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.profile-1 {
+  width: 270px;
+  height: 330px;
+  display: inline-block;
+  color: #000;
+  border-radius: 20px;
+  border: 6px solid #d9c630;
+  background: #fff;
+  margin: 0 205px;
+}
+
+.profile-1 h1 {
+  color: #000;
+  text-align: center;
+  font-size: 18px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 16px;
+}
+
+.profile-1 p {
+  text-align: center;
+}
+
+.underline-centered {
+  width: 94.005px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #d9c630;
 }
