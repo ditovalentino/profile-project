@@ -197,7 +197,7 @@ img.hero-image {
 }
 
 .struktur-profile {
-  gap: 10px;
+  gap: 253px;
   width: 100%;
   padding-top: 46px;
   display: flex;
@@ -220,7 +220,6 @@ img.hero-image {
   border-radius: 20px;
   border: 6px solid #d9c630;
   background: #fff;
-  margin: 0 205px;
 }
 
 .profile-1 h1 {
