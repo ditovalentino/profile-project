@@ -18,13 +18,11 @@
     <!-- start navbar -->
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-          <img
-            src="./Assets/img/Logo small ponpes.png"
-            alt="Logo"
-            class="logo-image"
-          />
-        </a>
+        <img
+          class="nav-img"
+          src="./Assets/img/Logo small ponpes.png"
+          alt="Logo Ponpes"
+        />
         <a
           class="navbar-brand"
           href="#"
@@ -33,7 +31,6 @@
           PONDOK PESANTREN KALIMASADA <br />
           <span class="jombang-text" style="font-size: 15px">JOMBANG</span>
         </a>
-
         <button
           class="navbar-toggler"
           type="button"
@@ -45,14 +42,13 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-link" aria-current="page" href="#">PROFILE</a>
-            <a class="nav-link" href="#">AKADEMIK</a>
-            <a class="nav-link" href="#">FASILITAS </a>
-            <a class="nav-link" href="#">AKTIFITAS</a>
-            <a class="nav-link" href="#">INFO PENDAFTARAN</a>
+            <a class="nav-link active" aria-current="main" href="#">PROFILE</a>
+            <a class="nav-link active" href="#">AKADEMIK</a>
+            <a class="nav-link active" href="#">FASILITAS</a>
+            <a class="nav-link active" href="#">AKTIFITAS</a>
+            <a class="nav-link nav-info" href="#">INFO PENDAFTARAN</a>
           </div>
         </div>
       </div>
@@ -101,23 +97,28 @@
           </div>
         </div>
         <div class="profile-misi">
-          <h2>VISI</h2>
-          <p>
-            Mengembangkan keterampilan santri yang beriman, bertaqwa, terdidik,
-            terampil, dan berwawasan kebangsaan.
-          </p>
-          <h2>MISI</h2>
-          <p>
-            1. Meningkatkan disiplin dalam beribadah kepada Allah SWT<br />2.
-            Meningkatkan pengamalan ajaran agama islam dalam kehidupan
-            sehari-hari<br />3. Melakukan pembelajaran dan bimbingan secara
-            efektif sehingga setiap santri berkembang secara optimal sesuai
-            dengan potensi yang dimiliki<br />4. Memberikan motivasi dan bantuan
-            kepada santri dalam mengembangkan bakat dan minat<br />5. Menanamkan
-            dasar-dasar IPTEK melalui pendidikan berbasis teknologi, sains, dan
-            life skills<br />6. Meningkatkan prestasi santri<br />7.
-            Meningkatkan rasa nasionalisme terhadap bangsa dan negara
-          </p>
+          <div class="visi-title">
+            <h2>VISI</h2>
+            <p>
+              Mengembangkan keterampilan santri yang beriman, bertaqwa,
+              terdidik, terampil, dan berwawasan kebangsaan.
+            </p>
+          </div>
+          <div class="misi-title">
+            <h2>MISI</h2>
+            <p>
+              1. Meningkatkan disiplin dalam beribadah kepada Allah SWT<br />2.
+              Meningkatkan pengamalan ajaran agama islam dalam kehidupan
+              sehari-hari<br />3. Melakukan pembelajaran dan bimbingan secara
+              efektif sehingga setiap santri berkembang secara optimal sesuai
+              dengan potensi yang dimiliki<br />4. Memberikan motivasi dan
+              bantuan kepada santri dalam mengembangkan bakat dan minat<br />5.
+              Menanamkan dasar-dasar IPTEK melalui pendidikan berbasis
+              teknologi, sains, dan life skills<br />6. Meningkatkan prestasi
+              santri<br />7. Meningkatkan rasa nasionalisme terhadap bangsa dan
+              negara
+            </p>
+          </div>
         </div>
       </div>
     </profile>
@@ -128,7 +129,7 @@
         <div class="struktur-title">
           <h1>Struktur <span class="organisasi">Organisasi</span></h1>
           <div class="struktur-line"></div>
-        </div>        
+        </div>
         <div class="struktur-profile justify-content-center">
           <div class="profile-1">
             <img src="./Assets/img/1 8.png" alt="Gambar" class="gambar1" />
@@ -143,15 +144,22 @@
             <div class="underline-centered"></div>
           </div>
         </div>
-        <div class="struktur-profile1">
-          <h1>Ustad Ariya Sabana S.Pdi.M.Pd, Ustad M.Agung Purnomo S.Pdi . M.Pd, dan Ustad M.Imam Ishomudin S.Pdi.</h1>
-          <p>Pengurus inti putra</p>
-          <div class="underline-centered"></div>
-        </div>
-        <div class="struktur-profile1">
-          <h1>Ustadzah Fadhitaus Syarifah S.Pd dan Ustadzah Titis Rosari S.Pd.</h1>
-          <p>Pengurus putri</p>
-          <div class="underline-centered"></div>
+        <div class="struktur-second">
+          <div class="struktur-profile1">
+            <h1>
+              Ustad Ariya Sabana S.Pdi.M.Pd, Ustad M.Agung Purnomo S.Pdi . M.Pd,
+              dan Ustad M.Imam Ishomudin S.Pdi.
+            </h1>
+            <p>Pengurus inti putra</p>
+            <div class="underline-centered"></div>
+          </div>
+          <div class="struktur-profile1">
+            <h1>
+              Ustadzah Fadhitaus Syarifah S.Pd dan Ustadzah Titis Rosari S.Pd.
+            </h1>
+            <p>Pengurus putri</p>
+            <div class="underline-centered"></div>
+          </div>
         </div>
       </div>
     </struktur>
@@ -159,29 +167,43 @@
 
     <!-- akademik -->
     <akademik>
-      <div id="akademik" class="akademik-content">
-        <img src="./Assets/img/artwork.png" alt="artwork" class="artwork">
-      </div>
-      <div class="title-akademik">
-        <h1>AKADEMIK</h1>
-        <p>Sistem pendidikan di Pondok pesantren kalimasda perpaduan salaf dengan khalaf biasa dikenal salaf modern. Pondok pesantren kalimasada tetap mempertahan kan salaf atau pembelajaran menggunakan kitab kuning serta mengikuti perkembangan zaman.</p>
+      <div class="akademik-section akademik-content">
+        <div class="title-akademik">
+          <h1>AKADEMIK</h1>
+          <p>
+            Sistem pendidikan di Pondok pesantren kalimasda perpaduan salaf
+            dengan khalaf biasa dikenal salaf modern. Pondok pesantren
+            kalimasada tetap mempertahan kan salaf atau pembelajaran menggunakan
+            kitab kuning serta mengikuti perkembangan zaman.<br /><br />Pondok
+            pesantren kalimasada menyelenggarakan pendidikan nonformal yaitu
+            pendidikan pondok atau diniayah yang mempelajari kitab-kitab dan
+            menghafal alqur’an. Selain itu juga menyelenggaran sekolah formal
+            yang didalam naungan kemenag yaitu MTs Diponegoro dan MA Terpadu
+            Kalimasada. Perkembangan dipesantren sangatlah pesat mualai tahun
+            2013 hingga tahun 2021. Dengan ditandai dengan bertambahnya santri
+            secara pesat, mulai dari Jombang, luar Jombang maupu luar kota, dan
+            luar pulau.
+          </p>
+        </div>
       </div>
     </akademik>
     <!-- akademik end -->
 
     <!-- fasilitas -->
-    <fasilitas>
+    <!-- <fasilitas>
       <div id="fasilitas" class="fasilitas-content">
-        <img src="./Assets/img/fasilitas.png" alt="fasilitas" class="fasilitas">
+        <img
+          src="./Assets/img/fasilitas.png"
+          alt="fasilitas"
+          class="fasilitas"
+        />
         <div class="title-fasilitas">
           <h1>Fasilitas di Pondok Pesantren Kalimasada</h1>
           <div class="underline-centered1"></div>
-        </div> 
+        </div>
       </div>
-      <div class="">
-
-      </div>
-    </fasilitas>
+      <div class=""></div>
+    </fasilitas> -->
     <!-- fasilitas end-->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"

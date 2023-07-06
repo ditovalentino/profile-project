@@ -21,41 +21,49 @@ header {
 }
 
 /* navbar */
-.a {
-  font-size: 100px;
-  color: #02542d;
-}
-.container-fluid {
-  background-color: white;
-}
-
 .navbar {
-  width: fullscreen;
-  height: 98px;
-  font-weight: bold;
+  width: 100%;
 }
 
-.navbar-brand {
-  color: #02542d;
-  font-weight: bold;
-}
-
-.navbar-brand .logo-image {
+.container-fluid {
   margin-left: 71px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.navbar-brand .jombang-text {
-  color: #02542d;
-  margin-right: 350px;
 }
 .navbar-brand {
-  padding-right: 30px;
+  display: flex;
+  width: 326px;
+  height: 43px;
+  flex-direction: column;
+  margin-left: 10.64px;
+  color: #02542d;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  line-height: normal;
+}
+
+.navbar-brand p {
 }
 
 .navbar-nav {
-  gap: 30px;
+  display: flex;
+  margin-left: 69px;
+  gap: 37px;
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.nav-info {
+  text-decoration: none;
+  color: #01512c;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 /* main */
@@ -101,26 +109,7 @@ img.hero-image {
   text-align: center;
   padding-bottom: 39px;
 }
-.profile-visi h2 {
-  padding-top: 45px;
-  color: #02542d;
-  font-size: 25px;
-  font-family: Inter;
-  font-weight: 700;
-}
 
-.profile-visi p {
-  display: inline-block;
-  text-align: left;
-  color: #000;
-  font-size: 18px;
-  font-family: Inter;
-  font-weight: 600;
-}
-
-.profile-misi p {
-  margin-right: 350px;
-}
 .profile-title {
   padding-left: 77px;
   padding-top: 64px;
@@ -136,17 +125,53 @@ img.hero-image {
   font-family: Inter;
   font-weight: 700;
   text-align: left;
-  padding-left: 77px;
 }
 
 .profile-dec {
-  padding-left: 77px;
+  text-align: left;
+  display: flex;
   width: 451px;
   height: 288px;
+  flex-direction: column;
+  flex-shrink: 0;
   color: #000;
-  font-size: 18px;
   font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
   font-weight: 600;
+  line-height: normal;
+}
+
+.profile-misi {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.visi-title h2 {
+  color: #02542d;
+  font-weight: bold;
+  margin-top: 45px;
+  margin-bottom: 17px;
+}
+
+.visi-title p {
+  padding-bottom: 57px;
+}
+
+.misi-title h2 {
+  color: #02542d;
+  font-weight: bold;
+  margin-top: 17px;
+  margin-bottom: 20px;
+}
+
+.misi-title p {
+  line-height: 30px;
+  margin-bottom: 38px;
 }
 
 /* struktur */
@@ -168,15 +193,16 @@ img.hero-image {
 }
 
 .struktur-title .organisasi {
-  color:#d9c630;
+  color: #d9c630;
 }
-
 
 .struktur-profile {
   gap: 10px;
-  height: 100vh;
+  width: 100%;
   padding-top: 46px;
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .gambar1 {
@@ -219,32 +245,29 @@ img.hero-image {
   border-bottom: 1px solid #d9c630;
 }
 
-.profile-2{
-  color: #000;
-  text-align: center;
-  font-size: 18px;
-  font-family: Inter;
-  font-style: normal;
-  font-weight: 700;
-  line-height: normal;
-  padding-top: 16px;
+.struktur-second {
+  width: 100%;
+  padding-top: 64px;
+  padding-left: 160px;
+  padding-right: 160px;
+  gap: 49px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 131px;
 }
 
-.struktur-profile1{
+.struktur-profile1 {
   background-color: #fff;
-  border: 4px solid #D9C630;
-  border-bottom: 39px solid #D9C630;
+  border: 4px solid #d9c630;
+  border-bottom: 39px solid #d9c630;
   width: 488px;
   height: 267px;
   flex-shrink: 0;
-  margin-left: 120px;
-  margin-bottom: 131px;
-  display: inline-block;
-  margin-right: 20px;
   vertical-align: top;
 }
 
-.struktur-profile1 h1{
+.struktur-profile1 h1 {
   color: #000;
   text-align: center;
   font-size: 18px;
@@ -255,23 +278,39 @@ img.hero-image {
   padding-top: 72px;
 }
 
-.struktur-profile1 p{
+.struktur-profile1 p {
   text-align: center;
 }
 
+/* akademik */
+.akademik-section {
+  width: 100%;
+  height: 764px;
+  display: flex;
+}
 .akademik-content {
-  float: right;
-  width: 50%;
-
+  background-image: url(../Assets/img/artwork.png);
+  background-position: right;
+  background-repeat: no-repeat;
 }
 
 .title-akademik {
-  float: left;
-  width: 50%;
+  display: flex;
+  width: 532px;
+  height: 433px;
+  flex-direction: column;
+  flex-shrink: 0;
+  margin-left: 77px;
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
 }
 
 .title-akademik h1 {
-  color: #02542D;
+  color: #02542d;
   text-align: center;
   font-size: 32px;
   font-family: Inter;
