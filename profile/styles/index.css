@@ -258,3 +258,51 @@ img.hero-image {
 .struktur-profile1 p{
   text-align: center;
 }
+
+.akademik-content {
+  float: right;
+  width: 50%;
+
+}
+
+.title-akademik {
+  float: left;
+  width: 50%;
+}
+
+.title-akademik h1 {
+  color: #02542D;
+  text-align: center;
+  font-size: 32px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 54px;
+}
+
+.title-akademik p {
+  margin-top: 46px;
+  padding-bottom: 170px;
+}
+
+.fasilitas-content {
+  position: relative;
+}
+
+.fasilitas-content .title-fasilitas {
+  position: absolute;
+  top: 1100px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700px;
+}
+
+.underline-centered1 {
+  width: 498px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 3px solid #ffffff;
+}
