@@ -41,9 +41,6 @@ header {
   line-height: normal;
 }
 
-.navbar-brand p {
-}
-
 .navbar-nav {
   display: flex;
   margin-left: 69px;
@@ -95,202 +92,192 @@ img.hero-image {
 }
 
 /* profile */
-
-.profile-content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.profile-title {
-  flex: 1;
-}
-
-.profile-image {
-  max-width: 100%;
-  height: auto;
-  margin-left: 20px; 
-}
-
-.profile-misi {
-  text-align: center;
-  background-color: #F3F3F3;
-}
-
 .profile-visi {
   text-align: center;
   padding-bottom: 20px;
 }
+.profile-content {
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  background-image: url(../Assets/img/logo\ gede.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
 
 .profile-title {
-  padding-left: 77px;
-  padding-top: 64px;
-  padding-bottom: 114px;
+  width: 355px;
+  height: 74px;
+  margin-top: 59px;
+  margin-left: 95px;
 }
+
 .profile-title h1 {
-  display: flex;
-  width: 564px;
-  height: 157px;
-  flex-direction: column;
-  color: #02542d;
-  font-size: 32px;
+  color: #01512c;
+  text-align: justify;
   font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
   font-weight: 700;
-  text-align: left;
+  line-height: normal;
 }
 
 .profile-dec {
-  text-align: left;
   display: flex;
-  width: 451px;
-  height: 288px;
-  flex-direction: column;
-  flex-shrink: 0;
-  color: #000;
+  text-align: left;
+  width: 471px;
+  height: 229px;
+  margin-top: 48px;
+  margin-left: 95px;
+  margin-bottom: 92px;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 20px;
   font-style: normal;
-  font-weight: 600;
-  line-height: normal;
+  font-weight: 400;
+  line-height: 126.023%;
+}
+.dec-image {
+  width: 416px;
+  height: 344px;
 }
 
+/* profile visi-misi */
 .profile-misi {
-  color: #000;
+  width: 100%;
+  height: auto;
+  background-color: #f3f3f3;
+  padding-top: 45px;
+}
+
+.visiTitle {
+  width: 284px;
+  height: auto;
+  margin: 0 auto;
+
+  margin-bottom: 14px;
+}
+
+.visiTitle h1 {
+  color: #01512c;
+  text-align: center;
   font-family: Inter;
-  font-size: 18px;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
+  line-height: 126.023%;
+}
+
+.visi-title {
+  height: auto;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 75px;
+}
+.visi-title p {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
   line-height: normal;
 }
 
-.visi-title h2 {
-  color: #02542d;
-  font-weight: bold;
-  margin-top: 45px;
-  margin-bottom: 17px;
+.titlemisi {
+  width: 284px;
+  height: 51px;
+  margin: 0 auto;
+  margin-bottom: 32px;
 }
-
-.visi-title p {
-  padding-bottom: 57px;
-}
-
-.misi-title h2 {
-  color: #02542d;
-  font-weight: bold;
-  margin-top: 17px;
-  margin-bottom: 20px;
+.titlemisi h1 {
+  color: #01512c;
+  text-align: center;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 126.023%;
 }
 
 .misi-title p {
-  line-height: 30px;
-  margin-bottom: 38px;
-}
-
-/* struktur */
-.struktur-content {
-  background-color: #01512c;
-}
-
-.struktur-title {
-  padding-top: 107px;
-  padding-left: 109px;
-}
-.struktur-line {
-  background: #d9c630;
-  width: 69px;
-  height: 4px;
-}
-.struktur-title h1 {
-  color: white;
-}
-
-.struktur-title .organisasi {
-  color: #d9c630;
-}
-
-.struktur-profile {
-  gap: 253px;
-  width: 100%;
-  padding-top: 46px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.gambar1 {
-  width: 259px;
-  height: 180px;
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-}
-
-.profile-1 {
-  width: 270px;
-  height: 330px;
-  display: inline-block;
-  color: #000;
-  border-radius: 20px;
-  border: 6px solid #d9c630;
-  background: #fff;
-}
-
-.profile-1 h1 {
   color: #000;
   text-align: center;
-  font-size: 18px;
   font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.misi-title {
+  display: flex;
+  gap: 105px;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+.misi-title1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  height: 142px;
+}
+
+.misi-title2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  height: 142px;
+}
+
+.misi-title3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 294px;
+  height: 142px;
+}
+/* prestasi page */
+.prestasi-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 89px;
+}
+.prestasi-images {
+  width: 450px;
+  height: 450px;
+}
+
+.prestasi-slide {
+  margin-left: 38px;
+  margin-top: 86px;
+}
+.prestasi-title {
+  width: 629px;
+  height: 129.885px;
+}
+
+.prestasi-title h1 {
+  font-family: Inter;
+  font-size: 52px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  padding-top: 16px;
 }
 
-.profile-1 p {
-  text-align: center;
+.prestasi-dec {
+  width: 581px;
+  height: 154px;
 }
 
-.underline-centered {
-  width: 94.005px;
-  margin-left: auto;
-  margin-right: auto;
-  border-bottom: 1px solid #d9c630;
-}
-
-.struktur-second {
-  width: 100%;
-  padding-top: 64px;
-  padding-left: 160px;
-  padding-right: 160px;
-  gap: 49px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-bottom: 131px;
-}
-
-.struktur-profile1 {
-  background-color: #fff;
-  border: 4px solid #d9c630;
-  border-bottom: 39px solid #d9c630;
-  width: 488px;
-  height: 267px;
-  flex-shrink: 0;
-  vertical-align: top;
-}
-
-.struktur-profile1 h1 {
-  color: #000;
-  text-align: center;
-  font-size: 18px;
-  font-family: Inter;
+.prestasi-dec ul li {
+  color: var(--gray-1, #333);
+  font-family: Poppins;
+  font-size: 24px;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   line-height: normal;
-  padding-top: 72px;
-}
-
-.struktur-profile1 p {
-  text-align: center;
 }
 
 /* akademik */
@@ -357,7 +344,6 @@ img.hero-image {
   border-bottom: 3px solid #ffffff;
 }
 
-
 /* AKTIFITAS */
 .aktifitas {
   padding: 50px 128px;
@@ -365,10 +351,10 @@ img.hero-image {
 .aktifitas h1 {
   text-align: center;
   margin-bottom: 40px;
-  color: #01512C;
+  color: #01512c;
   font-family: Inter;
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
-  line-height: normal
+  line-height: normal;
 }
