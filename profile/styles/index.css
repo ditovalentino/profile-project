@@ -96,18 +96,30 @@ img.hero-image {
 
 /* profile */
 
-.profile-container {
-  background: linear-gradient(90deg, #fff 39.43%, rgba(255, 255, 255, 0) 132%),
-    url(../Assets/img/profile.png);
-  position: relative;
-  background-repeat: no-repeat;
-  background-position: right;
-  background-size: 100% 100%;
+.profile-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.profile-title {
+  flex: 1;
+}
+
+.profile-image {
+  max-width: 100%;
+  height: auto;
+  margin-left: 20px; 
+}
+
+.profile-misi {
+  text-align: center;
+  background-color: #F3F3F3;
 }
 
 .profile-visi {
   text-align: center;
-  padding-bottom: 39px;
+  padding-bottom: 20px;
 }
 
 .profile-title {
@@ -343,4 +355,20 @@ img.hero-image {
   margin-left: auto;
   margin-right: auto;
   border-bottom: 3px solid #ffffff;
+}
+
+
+/* AKTIFITAS */
+.aktifitas {
+  padding: 50px 128px;
+}
+.aktifitas h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #01512C;
+  font-family: Inter;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal
 }
